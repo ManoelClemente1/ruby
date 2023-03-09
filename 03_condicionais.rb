@@ -1,3 +1,14 @@
+## Condicional ternário
+
+sexo = 'M'
+if sexo == 'M'
+    puts 'Masculino'
+else
+    puts 'Feminino'
+end
+
+puts (sexo == 'M' ? 'Masculino' : 'Feminino')
+
 #CASE
 print 'Digite uma idade:'
 idade = gets.chomp.to_i
