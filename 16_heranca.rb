@@ -14,7 +14,7 @@ class PessoaJuridica < Pessoa
     attr_accessor :cnpj
 
     def pagar_fornecedor
-        puts "fornecedor pago"
+        "fornecedor pago"
     end
 end
 
